@@ -126,7 +126,7 @@ function App(){
             <div style={{marginTop:6}}>
               <strong>By:</strong> {s.author_nickname} &nbsp; • &nbsp;
               <strong>Likes:</strong> {s.likes}
-              <button onClick={()=>likeStory(s.id)} style={{marginLeft:10}}>Like ❤️</button>
+              <button onClick={()=>likeStory(s.id)} style={{marginLeft:10}}>Like </button>
             </div>
             <div style={{fontSize:12, color:'#666'}}>{new Date(s.created_at).toLocaleString()}</div>
           </div>
